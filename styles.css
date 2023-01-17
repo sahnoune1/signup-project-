@@ -1,0 +1,272 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    
+    color: #ffd000;
+  background-color: #EAEDF0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+  
+
+
+}
+/*left side */
+.whole{
+    
+    display: flex;
+    
+    height: 100vh;
+    background-image: url(./merlin_212276709_3104aef5-3dc4-4288-bb44-9e5624db0b37-superJumbo.jpg);
+    background-size: 100% 100%;
+}
+
+.first{
+   
+    width: 600px;
+    height: 100vh;
+    
+    
+    background-repeat: no-repeat;
+   
+   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.second{
+   
+    width: 850px;
+   
+   
+}
+.box {
+    border: 1px solid yellow;
+    height: 150px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgb(255, 238, 0);
+    position: relative;
+    
+    
+   
+    
+}
+.logo{
+    height: 70px;
+position: absolute;
+
+margin-right: 150px;
+
+margin-top: 40px;
+    
+}
+.text{
+    font-size: 30px;
+   
+    height: 40px;
+    color: wheat;
+   margin-top: 50px;
+     width: 30vw;
+     text-align: center;
+     margin-left: 60px;
+     padding: 0px;
+    
+}
+
+/*right side */
+.second{
+   
+}
+
+.first-right{
+    border: 1px solid rgb(251, 255, 0);
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.452);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
+    box-shadow: 0 0 5px 1px rgb(255, 238, 0);
+}
+.second-right{
+    
+    height: 60vh;
+    background-color:rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    
+}
+.third-right{
+    border: 1px solid rgb(255, 196, 0);
+    height: 18vh;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgb(255, 238, 0);
+}
+.first-text{
+    
+    width: 570px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 550;
+    font-style: oblique;
+    color: rgba(255, 208, 0, 0.747);
+    
+
+}
+.second-text{
+    
+}
+.third-text{
+    
+}
+
+/*form styling*/
+.speaker-form {
+    
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: #1d1e1f71;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0 5px 1px rgb(255, 238, 0);
+  }
+
+  .form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    
+    
+  }
+  
+  .form-row input[type='text'] {
+    background-color: #dbdbdb;
+   
+    border-radius: 3px;
+    
+    padding: 7px;
+    font-size: 14px;
+    
+    width: 30%;
+  }
+  .form-row input[type='password'] {
+    background-color: #dbdbdb;
+   
+    border-radius: 3px;
+    
+    padding: 7px;
+    font-size: 14px;
+    
+    width: 30%;
+  }
+  .form-row input[type='email'] {
+    background-color: #dbdbdb;
+    
+    border-radius: 3px;
+    
+    padding: 7px;
+    font-size: 14px;
+    margin-left: 23px;    
+    width: 30%;
+  }
+  .form-roww {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    
+  }
+  .form-roww input[type='text'] {
+    background-color: #dbdbdb;
+    
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 7px;
+    font-size: 14px;
+    
+    width: 30%;
+  }
+  .form-roww input[type='tel'] {
+    background-color: #dbdbdb;
+   
+    border-radius: 3px;
+    margin-right: 15px;
+    padding: 7px;
+    font-size: 14px;
+    
+    width: 30%;
+  }
+  .tele{
+   
+    margin-right: 10px;
+  }
+  .country{
+    
+    margin-right: 29px;
+    margin-left: 13px;
+  }
+
+.third-right{
+
+    
+position: relative;
+}
+  .third-right button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #000000;
+    background-color: #ffd900;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+position: absolute;
+margin-left: 600px;
+margin-top: 20px;
+  }
+  
+  .third-right button :hover {
+    background-color: #76AEED;
+  }
+  
+  .third-right button :active {
+    background-color: #407FC7;
+  }
+
+  .firstname:invalid {
+    border: 1px solid red;
+}
+.email:invalid{
+    border: 1px solid red;
+}
+.tele:invalid{
+    border: 1px solid red;
+}
+.country:invalid{
+    border: 1px solid red;
+}
+.lastname:invalid{
+    border: 1px solid red;
+}
+.pass:invalid{
+    border: 1px solid red;
+}
