@@ -4,7 +4,7 @@
     <meta charset='UTF-8'/>
     <title> new project </title>
     <link rel='stylesheet' href='styles.css'/>
-    
+    <script src="./java.js"></script>
   </head>
 
 
@@ -35,18 +35,18 @@
         
         <div class='form-row'>
           <label for='first-name'>First name</label>
-          <input class="firstname" id='first-name' name='first-name' type='text'  pattern=".{5,20}" title="last name must be between 5 and 20 characters" />
+          <input class="firstname"  id='first-name' name='first-name' type='text'   required>
     
           <label for="last-name">Last name</label>
-          <input class="lastname" id="last-name" name="last-name" type="text" pattern=".{5,20}" title="last name must be between 5 and 20 characters" />
+          <input class="lastname" id="last-name" name="last-name" type="text" required>
         </div>
 
         <div class="form-row">
           <label  for="email">E-mail</label>
-          <input class="email" id="email" name="email" type="email" placeholder="example@ex.com" />
+          <input class="email" id="email" name="email" type="email" placeholder="example@ex.com" required/>
        
           <label for="password">Password</label>
-          <input class="pass" id="password" name="password"  type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="xxxxxxxx"/>
+          <input class="pass" id="password" name="password"  type="password"  placeholder="xxxxxxxx" required/>
         </div>
 
 
@@ -55,11 +55,11 @@
         <div class="form-roww"> 
          
           <label class="country" for='country'>Country</label>
-          <input class="country" id='country' name='country' type='text' />
+          <input class="country" id='country' name='country' type='text' required/>
          
          
           <label class="tele" for="phone">Phone number</label>
-          <input class="tele" id="phone" name="phone" type="tel" pattern="[\+]\d{3}[\s]\d{8}" placeholder="+216 xxxxxxxx"  />
+          <input class="tele" id="phone" name="phone" type="tel"  placeholder="+216 xxxxxxxx"  required/>
          
         </div>
 

@@ -252,21 +252,27 @@ margin-top: 20px;
     background-color: #407FC7;
   }
 
-  .firstname:invalid {
+.firstname:focus {
+  outline: none;
     border: 1px solid red;
 }
-.email:invalid{
+.email:focus{
+  outline: none;
     border: 1px solid red;
 }
-.tele:invalid{
+.tele:focus{
+  outline: none;
     border: 1px solid red;
 }
-.country:invalid{
+.country:focus{
+  outline: none;
     border: 1px solid red;
 }
-.lastname:invalid{
+.lastname:focus{
+  outline: none;
     border: 1px solid red;
 }
-.pass:invalid{
+.pass:focus{
+  outline: none;
     border: 1px solid red;
 }
